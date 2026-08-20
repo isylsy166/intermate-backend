@@ -1,0 +1,12 @@
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    operations-sorter: method      # 같은 경로 내 메서드 정렬
+    tags-sorter: alpha             # 태그(그룹) 알파벳 정렬
+    display-request-duration: true
+    doc-expansion: none            # 처음 열었을 때 전부 접힌 상태
+  default-produces-media-type: application/json
